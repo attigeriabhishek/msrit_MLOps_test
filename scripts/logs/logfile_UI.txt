@@ -7,3 +7,9 @@
 2024-08-23 11:15:46 - DEBUG - STREAM b'IHDR' 16 13
 2024-08-23 11:15:46 - DEBUG - STREAM b'PLTE' 41 312
 2024-08-23 11:15:46 - DEBUG - STREAM b'IDAT' 365 5838
+2024-08-23 11:16:01 - DEBUG - STREAM b'IHDR' 16 13
+2024-08-23 11:16:01 - DEBUG - STREAM b'PLTE' 41 312
+2024-08-23 11:16:01 - DEBUG - STREAM b'IDAT' 365 5838
+2024-08-23 11:16:01 - INFO - Batch file uploaded with 26 records
+2024-08-23 11:16:01 - DEBUG - Starting new HTTP connection (1): fastapi-container:8001
+2024-08-23 11:16:03 - ERROR - Batch prediction failed: HTTPConnectionPool(host='fastapi-container', port=8001): Max retries exceeded with url: /batch_predict (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002A704DD0440>: Failed to resolve 'fastapi-container' ([Errno 11001] getaddrinfo failed)"))
